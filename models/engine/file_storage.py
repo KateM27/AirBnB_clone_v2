@@ -70,6 +70,6 @@ class FileStorage:
                 pass
 
     def close(self):
-        """ Deserializes the pythin objects """
+        """ Deserializes the python objects """
 
         self.reload()
