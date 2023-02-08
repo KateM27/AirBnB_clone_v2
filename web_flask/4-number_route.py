@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-"""Starts a Flask web application that listens on 0.0.0.0, port 8080.
+"""Starts a Flask web application that listens on 0.0.0.0, port 5000
 Routes:
     /: Displays 'Hello HBNB!'.
     /hbnb: Displays 'HBNB'.
@@ -51,4 +51,4 @@ def number(n):
 
 
 if __name__ == "__main__":
-    app.run(host="0.0.0.0", port=8080)
+    app.run(host="0.0.0.0", port=5000)
